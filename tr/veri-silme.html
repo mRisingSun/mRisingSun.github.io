@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veri Silme Talebi — Bagstion</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header class="top">
+	<span class="game">Bagstion</span>
+	<nav><a href="gizlilik.html">Gizlilik</a><a href="kvkk.html">KVKK</a><a href="../en/data-deletion.html">English</a></nav>
+</header>
+
+<h1>Veri Silme Talebi</h1>
+<p class="meta">Bagstion — geliştirici: mRS Studio</p>
+
+<p>Bagstion'te hesap yoktur. Oyunu adınız ya da e-posta adresinizle oynamazsınız. Oyun ilerlemeniz cihazınızda tutulur; Google Play Games'e bağlıysanız bir kopyası Google hesabınızın Play Games kayıt alanında da bulunur (aşağıda 1b). Sunucularda kalabilecek tek veri, izin verdiyseniz gönderilen <strong>çökme raporları</strong> ve <strong>analitik olaylarıdır</strong>; bunlar da rastgele bir kurulum kimliğiyle ilişkilidir.</p>
+
+<h2>1. Cihazınızdaki verileri silmek</h2>
+<div class="card">
+<ol>
+	<li>Oyunda <em>Ayarlar → İlerlemeyi Sıfırla</em> seçeneğine iki kez dokunun. Bu işlem tüm ilerlemenizi ve gizlilik tercihlerinizi siler. Ya da:</li>
+	<li>Uygulamayı cihazınızdan kaldırın. Android, uygulamanın tüm yerel verilerini de siler.</li>
+</ol>
+<p><strong>Önemli:</strong> Sunuculardaki verilerin de silinmesini isteyecekseniz, sıfırlamadan ya da kaldırmadan <em>önce</em> Ayarlar ekranındaki <strong>Kimlik</strong> kodunu not alın. Sıfırlama yeni bir kimlik üretir; eski kimlik cihazda kalmaz.</p>
+</div>
+
+<h2>1b. Bulut kaydını (Google Play Games) silmek</h2>
+<p>Bulut kopyası Google tarafından Play Games hesabınızda saklanır. Bize ulaşmadığı için silme işlemini doğrudan siz yaparsınız:</p>
+<ul>
+	<li><strong>Yalnız bu oyunun bulut kaydı:</strong> Google Drive → Ayarlar → Uygulamaları yönet → Bagstion → <em>Gizli uygulama verilerini sil</em>.</li>
+	<li><strong>Tüm Play Games verileriniz:</strong> Play Games uygulaması → Profil → Ayarlar → <em>Play Games hesabını ve verilerini sil</em> (bu işlem bütün oyunlardaki Play Games verilerinizi siler).</li>
+</ul>
+<p>Not: Oyundaki <em>İlerlemeyi Sıfırla</em> bulut kopyasını hemen silmez; sıfırlamadan sonraki ilk yeni ilerlemeniz yedeklendiğinde eskisinin yerini alır. O zamana kadar <em>Ayarlar → Buluttan yükle</em> ile eski ilerlemeyi geri getirebilirsiniz.</p>
+
+<h2>2. Veri gönderimini durdurmak</h2>
+<div class="card">
+<p>Oyunda <em>Ayarlar</em> ekranında <strong>Çökme Raporu</strong> ve <strong>Analitik</strong> anahtarlarını kapatın. Gönderim hemen durur.</p>
+</div>
+
+<h2>3. Sunuculardaki verilerin silinmesini istemek</h2>
+<div class="card">
+<p>bagstion.destek@gmail.com adresine <strong>"Veri silme talebi — Bagstion"</strong> konulu bir e-posta gönderin. E-postaya şunları ekleyin:</p>
+<ul>
+	<li>oyunu oynadığınız cihazın modeli ve yaklaşık kurulum tarihi,</li>
+	<li><strong>kurulum kimliğiniz</strong>: oyunda <em>Ayarlar</em> ekranının altında "Kimlik: …" olarak görünen 12 karakterlik kod (örnek: <code>3FA91C07B2DE</code>).</li>
+</ul>
+<p>Talebinizi en geç <strong>30 gün</strong> içinde sonuçlandırır ve size bildiririz.</p>
+</div>
+
+<h2>Silinen ve saklanan veriler</h2>
+<div class="table-wrap"><table>
+	<tr><th>Veri</th><th>Talep üzerine</th></tr>
+	<tr><td>Bulut kayıt (Google Play Games)</td><td>Yukarıdaki 1b adımlarıyla siz silersiniz; bizim sunucumuzda kopyası yoktur.</td></tr>
+	<tr><td>Çökme raporları (Sentry)</td><td>Kimlikle eşleşen raporlar silinir. Eşleşmeyenler en geç 90 gün içinde zaten otomatik silinir.</td></tr>
+	<tr><td>Analitik olayları (GameAnalytics)</td><td>Kimlikle eşleşen olayların silinmesi sağlayıcıdan istenir. Kişiyle ilişkilendirilemeyen toplu istatistikler (örneğin "bölüm 3'ü geçenlerin oranı") saklanabilir.</td></tr>
+	<tr><td>E-posta yazışmaları</td><td>Silinir. Talebin yerine getirildiğini gösteren kısa bir kayıt, yasal yükümlülük için GameAnalytics'in <a href="https://gameanalytics.com/privacy">gizlilik politikasında</a> belirtilen süre boyunca saklanabilir.</td></tr>
+	<tr><td>Satın alma kayıtları</td><td>Satın alma belirteçleri yalnızca cihazınızda durur ve uygulamayı silince silinir. İlerlemeyi sıfırlamak satın almalarınızı silmez (Reklamsız VIP gibi kalıcı ürünler Google Play hesabınızdan geri yüklenebilir). Vergi mevzuatı gereği saklanması zorunlu kayıtlar, bu süre dolana kadar silinmez.</td></tr>
+</table></div>
+
+<p>Kurulum kimliğini bilmiyorsanız, rastgele kimlikler kişiyle eşleştirilemediği için sunuculardaki verileri bulamayabiliriz. Bu durumda size bilgi veririz. Bu veriler, yukarıdaki saklama süreleri dolunca kendiliğinden silinir.</p>
+
+<footer>Bagstion • <a href="gizlilik.html">Gizlilik Politikası</a> • <a href="kvkk.html">KVKK Aydınlatma Metni</a></footer>
+</main>
+</body>
+</html>
