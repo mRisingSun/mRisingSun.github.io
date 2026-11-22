@@ -1,0 +1,146 @@
+{
+	"format": 1,
+	"version": "2026-11-22",
+	"templates": {
+		"boss_rush_week": {
+			"kind": "boss_rush",
+			"stage": 5,
+			"mutators": [
+				"titan"
+			],
+			"reward_mult": 1.25,
+			"title": {
+				"tr": "BOSS AVI HAFTASI",
+				"en": "BOSS HUNT WEEK"
+			},
+			"text": {
+				"tr": "Son bölümün yarı-tanrısı sahada. Boss canı +%40 ama boss elması 2 kat.",
+				"en": "The final stage's demigod takes the field. Boss HP +40%, but boss gems are doubled."
+			}
+		},
+		"mutator_gauntlet": {
+			"kind": "gauntlet",
+			"mutators": [
+				"horde",
+				"swift",
+				"elite"
+			],
+			"reward_mult": 1.4,
+			"title": {
+				"tr": "MUTATOR ELDİVENİ",
+				"en": "MUTATOR GAUNTLET"
+			},
+			"text": {
+				"tr": "Üç kural birden: kalabalık, hızlı ve seçkin bir ordu. Dayanabilen bol ödül alır.",
+				"en": "Three rules at once: a large, fast, elite army. Those who hold out earn big rewards."
+			}
+		},
+		"element_week": {
+			"kind": "element",
+			"mutators": [
+				"frenzy"
+			],
+			"element": "fire",
+			"elem_bonus": 0.2,
+			"reward_mult": 1.1,
+			"title": {
+				"tr": "ATEŞ HAFTASI",
+				"en": "FIRE WEEK"
+			},
+			"text": {
+				"tr": "Etkinlik seferinde ateş silahları +%20 hasar vurur. Çantanı alevlerle doldur!",
+				"en": "Fire weapons deal +20% damage in the event run. Fill your bag with flames!"
+			}
+		},
+		"endless_league": {
+			"kind": "endless_league",
+			"mutators": [
+				"swift",
+				"poor"
+			],
+			"reward_mult": 1.15,
+			"title": {
+				"tr": "SONSUZ LİG HAFTASI",
+				"en": "ENDLESS LEAGUE WEEK"
+			},
+			"text": {
+				"tr": "Zindan ligi kızışıyor! Etkinlikte ısın, sonra Sonsuz Zindan'da haftalık rekorunu kır.",
+				"en": "The dungeon league heats up! Warm up in the event, then beat your weekly Endless record."
+			},
+			"card": {
+				"title": {
+					"tr": "SONSUZ LİG HAFTASI",
+					"en": "ENDLESS LEAGUE WEEK"
+				},
+				"text": {
+					"tr": "Bu hafta Sonsuz Zindan sıralaması öne çıkıyor. Sıralama kuralları her zamanki gibi; etkinlik seferi ise +%15 altın ve elmas veriyor.",
+					"en": "This week the Endless Dungeon ranking takes the spotlight. Ranking rules are unchanged; the event run gives +15% gold and gems."
+				}
+			}
+		}
+	},
+	"schedule": [
+		{
+			"id": "2026-w47-ates",
+			"template": "element_week",
+			"start": "2026-11-16",
+			"end": "2026-11-23",
+			"card": {
+				"title": {
+					"tr": "ATEŞ HAFTASI BAŞLADI",
+					"en": "FIRE WEEK IS ON"
+				},
+				"text": {
+					"tr": "Haftalık Etkinlik'te ateş silahları +%20 hasar vurur, sefer altını ve elması +%10. 3 yıldızı topla, sandıkları kap!",
+					"en": "In the Weekly Event fire weapons deal +20% damage and run gold and gems are +10%. Collect all 3 stars and grab the chests!"
+				}
+			}
+		},
+		{
+			"id": "2026-w48-boss",
+			"template": "boss_rush_week",
+			"start": "2026-11-23",
+			"end": "2026-11-30",
+			"card": {
+				"title": {
+					"tr": "BOSS AVI HAFTASI",
+					"en": "BOSS HUNT WEEK"
+				},
+				"text": {
+					"tr": "Bu hafta etkinlikte son bölümün yarı-tanrısı bekliyor. Sefer altını ve elması +%25.",
+					"en": "This week the final stage's demigod awaits in the event. Run gold and gems +25%."
+				}
+			}
+		},
+		{
+			"id": "2026-w49-eldiven",
+			"template": "mutator_gauntlet",
+			"start": "2026-11-30",
+			"end": "2026-12-07"
+		},
+		{
+			"id": "2026-w50-lig",
+			"template": "endless_league",
+			"start": "2026-12-07",
+			"end": "2026-12-14"
+		},
+		{
+			"id": "2026-w51-buz",
+			"template": "element_week",
+			"start": "2026-12-14",
+			"end": "2026-12-21",
+			"element": "frost",
+			"mutators": [
+				"swift"
+			],
+			"title": {
+				"tr": "BUZ HAFTASI",
+				"en": "FROST WEEK"
+			},
+			"text": {
+				"tr": "Etkinlik seferinde buz silahları +%20 hasar vurur. Hızlı düşmanları dondur!",
+				"en": "Frost weapons deal +20% damage in the event run. Freeze the swift enemies!"
+			}
+		}
+	]
+}
